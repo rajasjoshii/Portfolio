@@ -27,14 +27,14 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
     <!--navbar-->
     <nav class="navbar navbar-expand-sm fixed-top bg-white">
         <div class="container my-2">
-            <a href="#" class="navbar-brand text-dark font-weight-bold">
+            <a href="index.html" class="navbar-brand text-dark font-weight-bold">
                 Rajas Joshi
             </a>
             <button class="btn btn-outline-info ml-auto">
@@ -45,14 +45,14 @@
             </button>
             <div class="collapse navbar-collapse flex-grow-0" id="collapseNav">
                 <div class="navbar-nav">
-                    <a href="#" class="nav-item nav-link font-weight-bold mx-3 h6">
+                    <a href="index.html#about" class="nav-item nav-link font-weight-bold mx-3 h6">
                         About
                     </a>
-                    <a href="#" class="nav-item nav-link font-weight-bold mx-3 h6">
-                        Skill
+                    <a href="index.html#skills" class="nav-item nav-link font-weight-bold mx-3 h6">
+                        Skills
                     </a>
-                    <a href="#" class="nav-item nav-link font-weight-bold mx-3 h6">
-                        Blogs
+                    <a href="index.html#projects" class="nav-item nav-link font-weight-bold mx-3 h6">
+                        Projects
                     </a>
 
                 </div>
@@ -77,12 +77,12 @@
 
 
     <!--About-->
-   
+    <span id="about" ></span>
         <div class="container-fluid" style="margin-top: 4cm;" >
             <center style="font-size: 50px;"> About Me</center>
             <div class="row align-items-center justify-content-center my-5 ">
-                <div class=" col-12 col-md-8 " style="background-color:whitesmoke; box-shadow: black;">
-                    <div class="rounded mx-auto d-block shadow">
+                <div class=" col-12 col-md-10 " style=" box-shadow: black;">
+                    <div class="rounded mx-auto d-block shadow" >
                         <div class="py-5 px-5" style="font-size: 20px;"  data-aos="zoom-out" data-aos-duration="8000">
                             Hi, I am Rajas Joshi👨, Currently pursuing my engineering in Computer Science Degree 👨‍🎓🚀
                             from
@@ -105,7 +105,7 @@
 
     <!--Acadamics-->
 
-    <center style="font-size: 35px;"><span class="fa fa-graduation-cap font-weight-bold py-5">  Education & Qualifications</span></center>
+    <center style="font-size: 50px;"><span class="fa fa-graduation-cap font-weight-bold py-5"></span> Education & Qualifications</center>
    <div class="container">
         <div class="container-fluid"  data-aos="fade-down-left" data-aos-duration="8000">
             <div class="container align-items-center justify-content-center" style="border-left: 1px solid black; font-size: 15px;" >
@@ -184,89 +184,80 @@
 
 
 <!--My Project-->
-
-   <center> <h1>Projects</h1></center>
-    <div class="col-12">
-        <div class="row justify-content-center align-content-center">
-            <div class="container-fluid" style="padding: 40px; width:60rem;" >
-                <div class="col-12 col-md-12" data-aos="fade-up" data-aos-duration="8000" >
-                    <div class="row shadow-lg  align-content-center justify-content-center">
-                            <div class="col-12 col-md-6"  data-aos="fade-up-left" data-aos-duration="8000" >
-                                <div class="row align-content-center justify-content-center h3 py-3 font-weight-bold">
-                                    Mausam App
-                                </div>
-                                <div class="row mx-2 font-weight-bolder" >
-                                    <span class="badge badge-pill badge-warning">Mobile Development</span>
-                                    <span class="mx-2 badge badge-pill badge-info">Flutter</span>
-                                    <span class="badge badge-pill badge-dark">Dart</span>
-                                </div>
-                                
-                                <div class="row align-content-center justify-content-center my-2">
-                                    <p class="px-4" style="font-size: 18px;" >
-                                        Mausam App is used to get the real time ☁️ weather data Such as 
-                                        🌡️ Tempearture, 💨 Wind Speed, 🔥Humidity.
-                                        I have used Api which is provided by 🌐Openweathermap.org 
-                                        for fetching the data 📊.
-                                    </p>    
-                                
-                                </div>
-                                
-                            </div>
-                            <div class="col-12 col-md-6  align-content-center justify-content-center" data-aos="fade-up-right" data-aos-duration="8000" >
-                                <div class="row align-content-center justify-content-center" >
-                                    <div class="py-3 mx-3">
-                                        <img src="img/2.png" height="300">
-                                    </div>
-                                </div>
-                            </div>
+<span id="projects"></span>
+<div class="container-fluid ">
+        <center style="font-size: 50px;">Projects</center>
+        <div class="container-fluid shadow w-75">
+            <div class="row align-content-center justify-content-center my-5 mx-3">
+                <div class="col-12 col-md-6 " data-aos="fade-up-left" data-aos-duration="4000">
+                    <div class="row align-content-center justify-content-center h3 py-3 font-weight-bold">
+                        Mausam App
+                        
+                        
                     </div>
+                    <div class="row mx-3 font-weight-bolder">
+                        <span class="badge badge-pill badge-warning">Mobile Development</span>
+                        <span class="mx-2 badge badge-pill badge-info">Flutter</span>
+                        <span class="badge badge-pill badge-dark">Dart</span>
+                    </div>
+                    <p class="mx-3" style="font-size: 18px;" >
+                        Mausam App is used to get the real time ☁️ weather data Such as 
+                        🌡️ Tempearture, 💨 Wind Speed, 🔥Humidity.
+                        I have used Api which is provided by 🌐Openweathermap.org 
+                        for fetching the data 📊.
+                    </p> 
+                </div>
+                <div class="col-12 col-md-6 my-3 " data-aos="fade-up-right" data-aos-duration="4000">
+                    <img src="img/2.png" height="300px">
+                    
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="col-12">
-        <div class="row justify-content-center align-content-center">
-            <div class="container-fluid" style="padding: 40px; width:60rem;" >
-                <div class="col-12 col-md-12" data-aos="fade-up" data-aos-duration="8000" >
-                    <div class="row shadow-lg  align-content-center justify-content-center">
-                            <div class="col-12 col-md-6"  data-aos="fade-up-left" data-aos-duration="8000" >
-                                <div class="row align-content-center justify-content-center h3 py-3 font-weight-bold">
-                                    Hike Landing Page (Clone)
-                                    
-                                    
-                                </div>
-                                <div class="row mx-2 font-weight-bolder">
-                                    <span class="badge badge-pill badge-danger">HTML</span>
-                                    <span class="mx-2 badge badge-pill badge-warning">CSS</span>
-                                    <span class="badge badge-pill badge-primary">Bootstrap</span>
-                                </div>
-                                
-                                <div class="row align-content-center justify-content-center my-2">
-                                    <p class="px-4" style="font-size: 18px;" >
-                                        It is a simple Hike Landing Page which is made by using 
-                                        HTML, CSS, <i class="bi bi-bootstrap-fill"></i>ootstrap  <br>
-                                        <span style="font-size: 10px;">( click on logo to view deployment )</span>
-                                    </p>    
-                                
-                                </div>
-                                
-                            </div>
-                            <div class="col-12 col-md-6  align-content-center justify-content-center" data-aos="fade-up-right" data-aos-duration="8000" >
-                                <div class="row align-content-center justify-content-center" >
-                                    <div class="py-3 mx-3">
-                                       <a href="https://hike-clone.herokuapp.com/"> <img src="img/Hike_Logo.png" height="150"></a>
-                                    </div>
-                                </div>
-                            </div>
+
+        <div class="container-fluid shadow w-75">
+            <div class="row align-content-center justify-content-center my-5 mx-3">
+                <div class="col-12 col-md-6" data-aos="fade-up-left" data-aos-duration="4000">
+                    <div class="row align-content-center justify-content-center h3 py-3 font-weight-bold">
+                        Hike Landing Page (Clone)
+                        
+                        
                     </div>
+                    <div class="row mx-3 font-weight-bolder">
+                        <span class="badge badge-pill badge-danger">HTML</span>
+                    <span class="mx-2 badge badge-pill badge-warning">CSS</span>
+                    <span class="badge badge-pill badge-primary">Bootstrap</span>
+                    </div>
+                    <p class="mx-3" style="font-size: 18px;" >
+                        It is a simple Hike Landing Page which is made by using 
+                        HTML, CSS, <i class="bi bi-bootstrap-fill"></i>ootstrap  <br>
+                        <span style="font-size: 10px;">( click on logo to view deployment )</span>
+                    </p> 
+                </div>
+                <div class="col-12 col-md-6 my-3" data-aos="fade-up-right" data-aos-duration="4000">
+                    <a href="https://hike-clone.herokuapp.com/"> <img src="img/Hike_Logo.png" height="150"></a>
+                    
                 </div>
             </div>
         </div>
+</div>
+
+<footer id="foot" class="bg-white">
+    <center class="my-5" style="font-size: 50px;">Contact</center>
+    <div class="container-fluid">
+        
+          <center style="font-size: 25px;">
+            <pre>
+<a href="mailto:rajasj6@gmail.com">rajasj6@gmail.com<a></a><ui>     <a href="https://www.linkedin.com/in/rajas-joshi-015a08193/"><i class="h3 bi bi-linkedin"></i></a></ui><ui class="mx-5"><a href="https://github.com/rajasjoshii"><i class="h3 bi bi-github"></i></a> </ui><ui><a href="https://www.instagram.com/rajas.joshi/"><i class="h3 bi bi-instagram"></i></a> </ui>
+            
+            </pre>
+    </center>
+        
+
     </div>
 
 
-
+</footer>
 
 
 
