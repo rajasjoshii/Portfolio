@@ -1,6 +1,17 @@
-.btnround {
-  border-radius: 25px;
-  background: black;
-  height: 20px;
-  width: 100%;
+.education-box{
+    border-left: 2px solid black;
+}
+
+.heading{
+    font-size: 50px;
+}
+
+.projectheading{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+#footerstyle{
+    height: 100px; 
+    background-color: whitesmoke;
 }
